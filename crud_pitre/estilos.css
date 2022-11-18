@@ -1,0 +1,79 @@
+body{
+        background-image: url(img/fondo.jpg);
+        height: 100vh;
+        cursor: url(cur/cursor1.png), pointer;
+    }
+/****************
+* Pretify demo *
+****************/
+.h1 {
+float: left;
+margin: 25px;
+color: #333;
+font-family: 'Helvetica', sans-serif;
+font-size: 45px;
+font-weight: bold;
+line-height: 45px;
+text-align: center;
+}
+
+
+/* ////////////////////////// */
+
+.menuh1{
+    font-size: 30px;
+}
+
+.menu{
+    text-align: center;
+    margin: auto;
+    margin-top: 7%;
+}
+
+.menu input{
+    height: 80px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.menu input .red:hover{
+    background: #f40303;
+}
+
+
+.red{
+    background-color: red;
+
+}
+
+
+
+/* ////////////////////////// */
+
+
+.contenidos{
+    margin: auto;
+    margin-top: 9%;
+    position: relative;
+    width: 1000px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+
+.btnglobal{
+    background: #131938;
+    color: #f1f4f9;
+}
+
+.btnglobal:hover{
+    color: #f1f4f9;
+}

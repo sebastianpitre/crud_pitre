@@ -1,0 +1,101 @@
+/*navbar*/
+
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+    padding-top: 5px;
+
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: white;
+}
+
+.nav-link{
+    margin-right: 70px;
+}
+
+.navbar-nav{
+    position: absolute;
+    right: 50px;
+    margin-left: 100px;
+    font-size: 20px;
+    font-family: 'Ibarra Real Nova', serif;
+} 
+
+.navbar-brand{
+    font-size:30px ;
+    margin-left: 100px;
+    font-family: 'Lobster', 'cursive';
+}
+
+.botton{
+    margin-top: 1%;
+    margin-left: 30px;
+} 
+
+.bg{
+    background:#131938;
+}
+
+#sesion{
+    border-radius: 5px;
+    text-align: center;
+    background: rgb(255, 255, 255);
+    width: 180px;
+    height: 43px;
+}
+
+#sesion a{
+    color: #000000;
+}
+
+#sesion img{
+    border-radius: 20px;
+}
+
+
+.dropdown-menu{
+    width: 180px;
+    padding: 5px;
+}
+
+#cerrar{
+    text-align: center;
+    background: rgb(241, 28, 28);
+    border-radius: 4px;
+}
+
+#cerrar span{
+    color: white;
+    font-size: 20px;
+}
+
+.nav-item .coco{
+    color: #fff;
+    -webkit-transition:all 500ms ease;
+    -o-transition:all 500ms ease;
+    transition:all 500ms ease;
+}
+
+.coco:hover{
+    color: #131938;
+}
+
+
+/* ////////////////////////////// */
+
+.navbar{
+    background: #131921;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+.nav-link{
+    color: #ffffff;
+
+}
+
+.collapse{
+    margin-left: 30%;
+}
